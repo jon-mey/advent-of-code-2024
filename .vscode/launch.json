@@ -1,0 +1,156 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1",
+                    "--package=advent-of-code-2024"
+                ],
+                "filter": {
+                    "name": "1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1",
+                    "--package=advent-of-code-2024"
+                ],
+                "filter": {
+                    "name": "1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '2'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=2",
+                    "--package=advent-of-code-2024"
+                ],
+                "filter": {
+                    "name": "2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '2'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=2",
+                    "--package=advent-of-code-2024"
+                ],
+                "filter": {
+                    "name": "2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '3a'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=3a",
+                    "--package=advent-of-code-2024"
+                ],
+                "filter": {
+                    "name": "3a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '3a'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=3a",
+                    "--package=advent-of-code-2024"
+                ],
+                "filter": {
+                    "name": "3a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '3b'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=3b",
+                    "--package=advent-of-code-2024"
+                ],
+                "filter": {
+                    "name": "3b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '3b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=3b",
+                    "--package=advent-of-code-2024"
+                ],
+                "filter": {
+                    "name": "3b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
