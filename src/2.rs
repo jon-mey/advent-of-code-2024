@@ -26,7 +26,6 @@ fn is_valid_sequence(numbers: &[i32]) -> bool {
         return false; 
     }
 
-    let mut first = true;
     let mut sign = 0;
 
     for i in 1..len {
@@ -35,9 +34,8 @@ fn is_valid_sequence(numbers: &[i32]) -> bool {
             return false;
         }
 
-        if first {
+        if i == 1 {
             sign = diff.signum();
-            first = false;
         } else if diff.signum() != sign {
             return false;
         }

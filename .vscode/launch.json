@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable '1'",
+            "name": "Debug executable '1a'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=1",
+                    "--bin=1a",
                     "--package=advent-of-code-2024"
                 ],
                 "filter": {
-                    "name": "1",
+                    "name": "1a",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,53 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable '1'",
+            "name": "Debug unit tests in executable '1a'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=1",
+                    "--bin=1a",
                     "--package=advent-of-code-2024"
                 ],
                 "filter": {
-                    "name": "1",
+                    "name": "1a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '1b'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=1b",
+                    "--package=advent-of-code-2024"
+                ],
+                "filter": {
+                    "name": "1b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '1b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=1b",
+                    "--package=advent-of-code-2024"
+                ],
+                "filter": {
+                    "name": "1b",
                     "kind": "bin"
                 }
             },
