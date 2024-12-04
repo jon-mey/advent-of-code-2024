@@ -1,7 +1,8 @@
 bin = [
   { name = "1a", path = "src/1a.rs" },
   { name = "1b", path = "src/1b.rs" },
-  { name = "2", path = "src/2.rs" },
+  { name = "2b", path = "src/2b.rs" },
+  { name = "2a", path = "src/2a.rs" },
   { name = "3a", path = "src/3a.rs" },
   { name = "3b", path = "src/3b.rs" },
 ]
