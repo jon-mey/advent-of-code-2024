@@ -5,6 +5,8 @@ bin = [
   { name = "2a", path = "src/2a.rs" },
   { name = "3a", path = "src/3a.rs" },
   { name = "3b", path = "src/3b.rs" },
+  { name = "4a", path = "src/4a.rs" },
+  { name = "4b", path = "src/4b.rs" },
 ]
 
 [package]
