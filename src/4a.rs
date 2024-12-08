@@ -14,7 +14,7 @@ fn main() {
     for (x, row) in vec.iter().enumerate() {
         for (y, &char) in row.iter().enumerate() {
             if char == 'X' {
-                count += find_mas(x as i32, y as i33, &vec);
+                count += find_mas(x as i32, y as i32, &vec);
             }
         }
     }

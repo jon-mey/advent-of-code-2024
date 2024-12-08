@@ -7,6 +7,8 @@ bin = [
   { name = "3b", path = "src/3b.rs" },
   { name = "4a", path = "src/4a.rs" },
   { name = "4b", path = "src/4b.rs" },
+  { name = "5a", path = "src/5a.rs" },
+  { name = "6a", path = "src/6a.rs" },
 ]
 
 [package]
@@ -15,3 +17,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+array2d = "*"

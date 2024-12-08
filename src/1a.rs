@@ -3,7 +3,7 @@ use std::io::{self, BufRead};
 use std::path::Path;
 
 fn main() {
-    let lines = read_lines("./input/1.txt").expect("Could not open input file");
+    let lines = read_lines("./input/1a.txt").expect("Could not open input file");
     let mut left_numbers: Vec<i32> = vec![];
     let mut right_numbers: Vec<i32> = vec![];
 
